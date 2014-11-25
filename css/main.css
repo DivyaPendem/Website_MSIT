@@ -271,12 +271,12 @@ input.search-form:hover {
 }
 
  .navbar-nav{
-  margin-top: 12px;
+  margin-top:50px;
  }
 
 .navbar-nav>li{
   margin-left: 35px;
-  padding-bottom: 28px;
+ 
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -2094,7 +2094,7 @@ ul.faq li > div h3 {
 
 .embed-container {
   position: relative;
-  padding-bottom: 56.25%;
+  
   padding-top: 30px;
   height: 0;
   overflow: hidden;
@@ -2127,7 +2127,7 @@ ul.faq li > div h3 {
 
 .blog .blog-item .blog-content h2 {
   margin-top: 0;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 .readmore{
@@ -2525,8 +2525,21 @@ shortcodes page css
   margin-left: 15px;
 }
 
+.center1 {
+  text-align: center;
+  padding-bottom: 0px;
+}
+.center1 h2{
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 
-
-
+.top-bar {
+  padding: 2px 0;
+  background: #00005C;
+  border-bottom: 1px solid #222;
+  line-height: 1px;
+}
 
 

@@ -26,99 +26,61 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 	<style type="text/css">
 	
-.someclassname { height:490px; }
+.someclassname { height:640px; }
 </style>
 </head><!--/head-->
 
 <body class="homepage">
 
-    <header id="header">
-        <div class="top-bar">
-            <div class="container">
+    <header class="navbar-header navbar-default navbar-fixed-top" id="header" style="background-color:white;">
+        
+            <div class="container" style="background-color:white;">
                 <div class="row">
-                    <div class="col-sm-6 col-xs-4">
-                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  040-65881971</p></div>
+                    <div class="col-md-2">
+                        <div style="background-color:white">
+							<img src="images/logo.PNG" alt="msitlogo"/>
+						</div>
                     </div>
-                    <div class="col-sm-6 col-xs-8">
+					
+					<div class="col-md-8" >				
+							<!--<nav class="navbar-fixed-top" role="banner" style="width:80%;text-align:center">-->
+								<div class="collapse navbar-collapse navbar-right">
+									<ul class="nav navbar-nav">
+										
+										<li><button type="button" class="btn btn-primary"><a href="index.html" ><font color="white">Features</font></a></button></li>
+										<li><button type="button" class="btn btn-primary"><a href="about-us.html"><font color="white">Curriculum</font></a></li>
+										<li class="active"><button type="button" class="btn btn-primary"><a href="portfolio.html"><font color="white">Admissions</font></a></li>
+										<li class="dropdown active"><button type="button" class="btn btn-primary">
+												<a href="portfolio.html"><font color="white">Placements</font></a>
+										</li>
+									   <li class="active"><button type="button" class="btn btn-primary"><a href="contact-us.html"><font color="white">Recruiters</font></a></li>                        
+									</ul>
+								</div>
+							 
+						
+					</div>
+					<div class="col-md-2 ">
                        <div class="social">
                             <ul class="social-share">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                               
                             </ul>
                            
                        </div>
                     </div>
-                </div>
+				</div>
             </div><!--/.container-->
-        </div><!--/.top-bar-->
+        
 
-       <nav class="navbar navbar-inverse" role="banner" style="background-color:white">
-            <!--<div class="row">
-                <div class="col-md-6 col-xs-12 col-sm-6" >
-				     <img src="images/m1.GIF"  />
-					 <img src="images/i1.GIF"  />
-					 <img src="images/rsz_j1.PNG"  />
-					 <img src="images/rsz_l2.PNG"  />
-					 <img src="images/rsz_j3.PNG"  />
-					<!-- <div class="col-md-4 col-xs-12 col-sm-6">
-						<img src="images/m1.GIF"  />
-					 </div>
-					 <div class="col-md-2 col-xs-12 col-sm-6 " style="background-color:black">
-						<img src="images/i1.GIF"  />
-					 </div>
-					 <div class="col-md-2 col-xs-12 col-sm-6" style="background-color:black">
-						<img src="images/j1.PNG"  />
-					 </div>
-					 <div class="col-md-2 col-xs-12 col-sm-6" style="background-color:black">
-						<img src="images/j2.PNG"  />
-					 </div>
-					 <div class="col-md-2 col-xs-12 col-sm-6" style="background-color:black">
-						<img src="images/j3.PNG"  />
-					 </div> 
-					 
-				</div> -->
-			<div class="row">
-				<div class="col-md-6 col-xs-12 col-sm-6" >
-					<div class="col-md-4 col-xs-12 col-sm-6">
-						<img src="images/m1.GIF"  />
-					 </div>
-					 <div class="col-md-8 col-xs-12 col-sm-6" style="background-color:black; padding-bottom:0px; margin-bottom:0px;">
-						<img src="images/i1.GIF"  />
-						<img src="images/rsz_j1.PNG"  />
-						<img src="images/rsz_l2.PNG"  />
-						<img src="images/rsz_j3.PNG"  />
-					 </div>
-				</div>
-				
-				<div class="col-md-6 col-xs-12 col-sm-6" >
-					<div class="collapse navbar-collapse navbar-right">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li class="active"><a href="about-us.html">About Us</a></li>
-							<li class="active"><a href="portfolio.html">Admissions</a></li>
-							<li class="dropdown active">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Recruiters<i class="fa fa-angle-down"></i></a>
-								<ul class="dropdown-menu">
-									<li><a href="blog-item.html">Student Portfolios</a></li>
-									<li><a href="pricing.html">Skills Matrix</a></li>
-								  
-									<li><a href="shortcodes.html">Apply/Placement Drive</a></li>
-								</ul>
-							</li>
-						   <li class="active"><a href="contact-us.html">Contact Us</a></li>                        
-						</ul>
-					</div>
-				</div>
-            </div><!--/.container-->
-        </nav><!--/nav-->
+        
 		
     </header><!--/header-->
 
-    <section id="main-slider" class="no-margin someclassname">
-        <div class="carousel slide someclassname" data-interval="20000" data-ride="carousel" style="width:1330px;  margin: 0 auto">
-            <ol class="carousel-indicators">
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide someclassname">
+            <ol class="carousel-indicators ">
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>
                 <li data-target="#main-slider" data-slide-to="1"></li>
                 <li data-target="#main-slider" data-slide-to="2"></li>
@@ -126,11 +88,10 @@
             <div class="carousel-inner someclassname">
 
                 <div class="item active" style="background-image: url(images/slider/demo.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin someclassname" style="text-align: center;">
-                            <div class="col-sm-12" style="text-align: center;">
+                    <div class="container slide-margin">
+                             <div class="col-sm-12" style="text-align: center;">
                                 <div class="carousel-content someclassname partners">
-                                    <h7 class="animation animated-item-1" align="center" style="color:white; " font size="6">The Consortium of</h7>
+                                    <h1 class="animation animated-item-1" style="color:black; " font size="6">The Consortium of</h1>
 									
 									<div class="row">
 									<br>
@@ -152,36 +113,38 @@
                 </div>
                          </div> 
 <div class="col-md-2">
-									</div>	
+</div>	
+
+
 </div>		
 <div class="row">
 <br>
- <h2 class="animation animated-item-1" align="center" style="color:white; " font size="6">Offer</h2>
- <h2 class="animation animated-item-1" align="center" style="color:white; " font size="6">Master of Science in IT in Collaboration with</h2>
+ <h2 class="animation animated-item-1" align="center" style="color:black; " font size="6">Offer</h2>
+ <h2 class="animation animated-item-1" align="center" style="color:black; " font size="6">Master of Science in IT in Collaboration with</h2>
  </div>
  <div class="row">
 
  <center>
 
-<img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner1.png" height="90" width="110">
+<img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner1.jpg" height="90" width="110">
 
 </div>
 </div>
 							
-                                </div>
-                            </div>
 
+							</div>
+							
                            <!-- <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
                                     <img src="images/slider/img1.png" class="img-responsive">
                                 </div>
                             </div>-->
 
-                        </div>
+                        
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/projectcentric.jpg)">
+                <div class="item" style="background-image: url(images/slider/bg2.png)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -202,7 +165,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/placements.jpg)">
+                <div class="item" style="background-image: url(images/slider/bg3.png)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -230,7 +193,7 @@
         </a>
     </section><!--/#main-slider-->
 
-    <section id="feature" >
+     <section id="feature" >
         <div class="container">
            <div class="center wow fadeInDown">
                 <h2>Features</h2>
@@ -291,12 +254,11 @@
         </div><!--/.container-->
     </section><!--/#feature-->
 
-    <section id="recent-works">
+   <section id="recent-works">
         <div class="container">
-            <div class="center wow fadeInDown">
+            <div class="center1 wow fadeInDown">
                <center> <h2>MSIT Curriculum</h2>
-			   <p>Includes verbal, aptitude and logical reasoning.Includes verbal, aptitude and logical reasoning</p>
-               
+			   
             </div>
 
             <div class="row" >
@@ -304,72 +266,72 @@
                 <div class="col-xs-12 col-sm-3 col-md-3" style="background-color:white;">
                   <div><center><h2 style="background-color:#558abb;color:white">Soft Skills </h2>  </div>
 				  <div>
-					  <table>
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #558abb;"><h5>English LSRW (TOEFFL)</h5><p>Tests the ability to listen, speak, read and write.Tests the ability to listen.
-							</p></td></tr></pre>
-							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #558abb;"><h5>Math practice (SAT)</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
-							</p></td></tr>
+					  
+							<pre class="brush: js  language-js" style="border-left: 6px solid #558abb;"><h5><b style="color:#558abb;">English LSRW (TOEFFL)</b></h5><p>Tests the ability to listen, speak, read and write.Tests the ability to listen.
+							</p></pre>
+						
+							<pre class="brush: js  language-js" style="border-left: 6px solid #558abb;"><h5><b style="color:#558abb;">Math practice (SAT)</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
+							</p></pre>
 		
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #558abb;"><h5>Presentations</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #558abb;"><h5><b style="color:#558abb;">Presentations</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
+							</p></pre>
 							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #558abb;"><h5>Role plays</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #558abb;"><h5><b style="color:#558abb;">Role plays</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
+							</p></pre>
 							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #558abb;"><h5>Mock Interviews</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #558abb;"><h5><b style="color:#558abb;">Mock Interviews</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
+							</p></pre>
 							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #558abb;"><h5>Editorial activities</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
-							</p></td></tr>
-						</table>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #558abb;"><h5><b style="color:#558abb;">Editorial activities</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
+							</p></pre>
+						
 					</div>
                 </div>   
 
                 <div class="col-xs-12 col-sm-8 col-md-6" style="background-color:white">
-                  <div><center> <h2 style="background-color:#C34848;color:white"> IT Core</h2></div>
+                  <div><center> <h2 style="background-color:#c52d2f;color:white"> IT Core</h2></div>
 				   <div class="col-xs-12 col-sm-8 col-md-6"  style="background-color:white">
-						 <table>
+						 
 						  
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5>Preparatory course</h5><p>Tests the ability to listen, speak, read and write.Tests the ability to listen.
-							</p></td></tr></pre>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5><b style="color:#C34848;">Preparatory course</b></h5><p>Tests the ability to listen, speak, read and write.Tests the ability to listen.
+							</p></pre>
 							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5>Object oriented programming</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude .
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5><b style="color:#C34848;">Object oriented programming</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude .
+							</p></pre>
 							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5>Database management systems</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude.
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5><b style="color:#C34848;">Database management systems</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude.
+							</p></pre>
 							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5>Web Programming</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude.
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5><b style="color:#C34848;">Web Programming</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude.
+							</p></pre>
 							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5>Software engineering </h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude .
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5><b style="color:#C34848;">Software engineering</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude .
+							</p></pre>
 							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5>Computer networks</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal.
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5><b style="color:#C34848;">Computer networks</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal.
+							</p></pre>
 							
-						</table>
+						
 					</div>
 					<div class="col-xs-12 col-sm-8 col-md-6"  style="background-color:white">
-						<table>
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5>Algorithms and Data structures</h5></td></tr>
+						
+							<pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5><b style="color:#C34848;">Algorithms and Data structures</b></h5></pre>
 							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h6>Part-1</h6><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h6><b style="color:#C34848;">Part-1</b></h6><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
+							</p></pre>
 							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h6>Part-2</h6><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h6><b style="color:#C34848;">Part-2</b></h6><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
+							</p></pre>
 							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h6>Part-3</h6><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h6><b style="color:#C34848;">Part-3</b></h6><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
+							</p></pre>
 							
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5>Continuous programming</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5><b style="color:#C34848;">Continuous programming</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
+							</p></pre>
 					        
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5>Operating systems</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
-							</p></td></tr>
-						</table>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #C34848;"><h5><b style="color:#C34848;">Operating systems</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical reasoning.
+							</p></pre>
+						
 					</div>
                 </div> 
 
@@ -378,24 +340,22 @@
                 <div class="col-xs-12 col-sm-4 col-md-3" style="background-color:white">
                    <div><center><h2 style="background-color:#808000;color:white">IT Specializations</h2></div>
 				   <div>
-						<table>
 						
-						
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #808000;"><h5>Computer networks</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical .
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #808000;"><h5><b style="color:#808000;">Computer networks</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical .
+							</p></pre>
 					
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #808000;"><h5>Data Analytics and Visualization</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical .
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #808000;"><h5><b style="color:#808000;">Data Analytics and Visualization</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical .
+							</p></pre>
 						
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #808000;"><h5>eBusiness Technologies</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical .
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #808000;"><h5><b style="color:#808000;">eBusiness Technologies</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical .
+							</p></pre>
 						
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #808000;"><h5>Information systems</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical.
-							</p></td></tr>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #808000;"><h5><b style="color:#808000;">Information systems</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical.
+							</p></pre>
 						
-							<tr><td><pre class="brush: js  language-js" style="border-left: 6px solid #808000;"><h5>Software engineering</h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical.
-							</p></td></tr>
-						</table>
+							<pre class="brush: js  language-js" style="border-left: 6px solid #808000;"><h5><b style="color:#808000;">Software engineering</b></h5><p>Includes verbal, aptitude and logical reasoning.ncludes verbal, aptitude and logical.
+							</p></pre>
+						
 					</div>
                 </div>   
                 
@@ -405,7 +365,6 @@
             </div><!--/.row-->
         </div><!--/.container-->
     </section><!--/#recent-works-->
-
     <section id="services" class="service-item">
 	   <div class="container">
             <div class="center wow fadeInDown">
@@ -421,7 +380,7 @@
                             <img class="img-responsive" src="images/services/services1.jpg"  height="40px" width="85px">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">24X7 Internet Facility</h3>
+                            <h3 class="media-heading">24X7 Lab and Internet</h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -481,7 +440,7 @@
                             <img class="img-responsive" src="images/services/services6.jpg" height="40px" width="80px">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">24x7 lab</h3>
+                            <h3 class="media-heading">Library</h3>
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
@@ -490,99 +449,80 @@
         </div><!--/.container-->
     </section><!--/#services-->
 
-     <div class="container">
+    <div class="container">
             <div class="row">
                 <div class="col-sm-6 wow fadeInDown">
                     <div class="skill">
                         <h2>Companies associated</h2>
-                        <a><img class="img-responsive" src="images/12.jpg" width="98%" height="40px"  style="border:3px solid black"></a>
+                        <a><img class="img-responsive" src="images/logo1.jpg" width="98%" height="40px"  style="border:3px solid black"></a>
 
                      
 				</div>
                 </div><!--/.col-sm-6-->
 
                 <div class="col-sm-6 col-md-6 col-xs-12 wow fadeInDown">
-                        <h2>Placement Track Record</h2><br>
-                      
-					 <table border="3"  width="100%" height="60%" style="border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
-												<tr>
-													<th height="20"> </th>
-													<th height="20">Students Placed</th>
-													<th height="20"> Salary Range(min-max) in lac</th>
-													
+				<h2>Placement Track Record</h2><br>
+				
+				 <div><h4><b>CLASS OF 2014</b></h4></div>
+				  <div>
+					  <table border="3"  width="100%" height="60%" style="border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+						<tr><th colspan="2"><center><h4 style="background-color:white;"><b>Universtity</b></h4></th>
+						<th ><center><b><h4 style="background-color:white;"><b>Students Placed with Salary Range </b></h4></th></tr>
+						<tr>
+													<th bgcolor="#33CCCC"> </th>
+													<th >IIIT-H</th>
+													<td><center>61/61 with 13L to 3.34L</td>
 												</tr>
 												<tr>
-												<td colspan="3" bgcolor="white"><b><center>Class of 2014</td>
-												<tr>
-												<tr>
-													<th bgcolor="#33CCCC">IIIT-H</th>
-													<td bgcolor="#33CCCC">61/61 </td>
-													<td bgcolor="#33CCCC">13-3.5</td>
+													<th bgcolor="#00FFFF"> </th>
+													<th >JNTU-H</th>
+													<td ><center>48/53 with 6.6L to 3.05L</center></td>
 												</tr>
 												<tr>
-													<th bgcolor="#00FFFF">JNTU-H</th>
-													<td bgcolor="#00FFFF">48/53</td>
-													<td bgcolor="#00FFFF">8-2.8</td>
+												    <th bgcolor="#66FFCC"> </th>
+													<th >JNTU-K</th>
+													<td ><center>45/48 with 4.5L to 3.34L</td>
 												</tr>
 												<tr>
-													<th bgcolor="#66FFCC">JNTU-K</th>
-													<td bgcolor="#66FFCC">45/48</td>
-													<td bgcolor="#66FFCC">6-2.6</td>
+												    <th bgcolor="#CCFFFF"> </th>
+													<th >JNTU-A</th>
+													<td ><center>22/30 with 3.34L</td>
 												</tr>
-												<tr>
-													<th bgcolor="#CCFFFF">JNTU-A</th>
-													<td bgcolor="#CCFFFF">22/30</td>
-													<td bgcolor="#CCFFFF">6-2.4</td>
-												</tr>
-												<tr>
-												<td colspan="3" bgcolor="white"><center><b>Class of 2013</td>
-												<tr>
-												<tr>
-													<th bgcolor="#33CCCC">IIIT-H</th>
-													<td bgcolor="#33CCCC">61/61 </td>
-													<td bgcolor="#33CCCC">13-3.5</td>
-												</tr>
-												<tr>
-													<th bgcolor="#00FFFF">JNTU-H</th>
-													<td bgcolor="#00FFFF">48/53</td>
-													<td bgcolor="#00FFFF">8-2.8</td>
-												</tr>
-												<tr>
-													<th bgcolor="#66FFCC">JNTU-K</th>
-													<td bgcolor="#66FFCC">45/48</td>
-													<td bgcolor="#66FFCC">6-2.6</td>
-												</tr>
-												<tr>
-													<th bgcolor="#CCFFFF">JNTU-A</th>
-													<td bgcolor="#CCFFFF">22/30</td>
-													<td bgcolor="#CCFFFF">6-2.4</td>
-												</tr>
-												<tr>
-												<td colspan="3" bgcolor="white" ><center><b>Class of 2012</td>
-												<tr>
-												<tr>
-													<th bgcolor="#33CCCC">IIIT-H</th>
-													<td bgcolor="#33CCCC">61/61 </td>
-													<td bgcolor="#33CCCC">13-3.5</td>
-												</tr>
-												<tr>
-													<th bgcolor="#00FFFF">JNTU-H</th>
-													<td bgcolor="#00FFFF">48/53</td>
-													<td bgcolor="#00FFFF">8-2.8</td>
-												</tr>
-												<tr>
-													<th bgcolor="#66FFCC">JNTU-K</th>
-													<td bgcolor="#66FFCC">45/48</td>
-													<td bgcolor="#66FFCC">6-2.6</td>
-												</tr>
-												<tr>
-													<th bgcolor="#CCFFFF">JNTU-A</th>
-													<td bgcolor="#CCFFFF">22/30</td>
-													<td bgcolor="#CCFFFF">6-2.4</td>
-												</tr>
+							
+							</p></pre>
 						</table>
-			
-                </div>
+						</div>
+						<br>
+						<h4><b>CLASS OF 2013</b></h4>
+				  <div>
+					  <table border="3"  width="100%" height="60%" style="border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;">
+						<tr><th colspan="2"><center><h4 style="background-color:white;"><b>Universtity</b></h4></th>
+						<th ><center><b><h4 style="background-color:white;"><b>Students Placed with Salary Range </b></h4></th></tr>
+						<tr>
+													<th bgcolor="#33CCCC"> </th>
+													<th >IIIT-H</th>
+													<td><center>61/61 with 13L to 3.34L</td>
+												</tr>
+												<tr>
+													<th bgcolor="#00FFFF"> </th>
+													<th >JNTU-H</th>
+													<td ><center>48/53 with 6.6L to 3.05L</center></td>
+												</tr>
+												<tr>
+												    <th bgcolor="#66FFCC"> </th>
+													<th >JNTU-K</th>
+													<td ><center>45/48 with 4.5L to 3.34L</td>
+												</tr>
+												<tr>
+												    <th bgcolor="#CCFFFF"> </th>
+													<th >JNTU-A</th>
+													<td ><center>22/30 with 3.34L</td>
+												</tr>
+							
+							</p></pre>
+						</table>
+						</div>
+						                </div>
 
             </div><!--/.row-->
         </div><!--/.container-->
@@ -798,3 +738,5 @@ E-mail: enquiries2014@msitprogram.net</p>
     <script src="js/wow.min.js"></script>
 </body>
 </html>
+
+

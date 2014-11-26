@@ -2386,7 +2386,7 @@ ul.sidebar-gallery {
 }
 
 .post_reply_comments p {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .post_reply_comments a {

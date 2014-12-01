@@ -1,0 +1,21 @@
+.header {
+	padding: 0px;
+}
+
+.bs-callout {
+	max-width: 500px;
+	padding: 15px;
+	margin: 20px 0;
+	border: 1px solid #eee;
+	border-radius: 3px
+}
+
+.bs-callout-info {
+	border-top-color: #5bc0de;
+	border-top-width: 5px;
+}
+
+.bs-callout-notifications {
+	border-left-color: #ff0000;
+	border-left-width: 5px;
+}
